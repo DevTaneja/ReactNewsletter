@@ -433,24 +433,5 @@ nextMonthBtn.addEventListener("click", () => {
 
 renderCalendar();
 
-let bt1 = document.querySelector("#bt1");
-
-// Add an onclick event listener
-let b1 =   document.querySelector("#bt1");
-if(bt1) {
-  bt1.onclick = () => {
-    alert(
-      "Please don't waste your time in doing random things.\nInstead, do something useful and productive."
-    );}
-};
-
-let width =  screen.width;
-
-if (width < 724 && !document.querySelector(".mobile-alert")) {
-  document.body.insertAdjacentHTML(
-    "afterbegin",
-    "<p class='mobile-alert'>You're on a phone. Zoom out for a better view.</p>"
-  );
-}
 
 });

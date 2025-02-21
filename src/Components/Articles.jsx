@@ -291,9 +291,7 @@ const Articles =()=>{
             In life, we often find ourselves at crossroads, unsure of which path to take. In these moments, it is crucial to listen to both the heart and the mind. The heart may lead us through uncharted territories, guided by instinct and feeling, while the mind can offer clarity and refinement, helping us navigate challenges with reason.
           </p>
         
-          <p>
-            When we trust both the heart and the mind, we unlock a deeper understanding of ourselves and the world around us. The heart brings us closer to our authentic selves, while the mind helps us translate that authenticity into action. Together, they create a force greater than the sum of its parts—a force that guides us, shapes us, and empowers us to live fully and authentically.
-          </p>
+          
         
         
           <h4>The Dance of Heart and Mind: Poetic Reflection</h4>
@@ -341,14 +339,7 @@ const Articles =()=>{
             Guided by heart, refined by mind, each day. <br />
           </p>
         
-          <h4>Conclusion: Embracing the Dance</h4>
-          <p>
-            The heart and mind, though distinct in their roles, are not opposites—they are partners in the dance of life. They work together, each bringing its own strength to the table. By embracing both, we can make decisions that are not only grounded in reason but also inspired by intuition and emotion. Together, the heart and mind guide us through the ebb and flow of life, helping us navigate the world with authenticity, clarity, and grace.
-          </p>
         
-          <p>
-            So, the next time you face a difficult decision, trust in the wisdom of both—the heart that feels, and the mind that thinks—and let them lead you to where you are meant to be.
-          </p>
         
           <p className="acknowledgements">
             -ADITI (SE10 : 23203)

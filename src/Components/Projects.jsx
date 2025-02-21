@@ -1,4 +1,7 @@
 import React from 'react';
+import projectDev1 from "../assets/img/projectDev1.jpg";
+import projectDev2 from "../assets/img/projectDev2.jpg";
+import projectDev3 from "../assets/img/ProjectDev3.jpg";
 
 const Projects = () => {
   const projectData = [
@@ -21,14 +24,14 @@ const Projects = () => {
   return (
     <section id="projectdevelopment">
       <div className="Gallery-2">
-        <div className="Gallery-2-big">
-          <img src="assets/img/projectDev1.jpg" alt="Project Development 1" />
-        </div>
-        <div className="Gallery-2-small">
-          <img src="assets/img/projectDev2.jpg" alt="Project Development 2" />
-          <img src="assets/img/ProjectDev3.jpg" alt="Project Development 3" />
-        </div>
+      <div className="Gallery-2-big">
+        <img src={projectDev1} alt="Project Development 1" />
       </div>
+      <div className="Gallery-2-small">
+        <img src={projectDev2} alt="Project Development 2" />
+        <img src={projectDev3} alt="Project Development 3" />
+      </div>
+    </div>
       <div className="project-development-section">
         <h2 className="section-title">Project Development</h2>
         <div className="project-development-table">

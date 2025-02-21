@@ -1,4 +1,38 @@
 import React from 'react'
+import sareeSession from "../assets/img/saree-session-1.jpg";
+import Picture27 from "../assets/img/Picture27.jpg";
+import Picture3 from "../assets/img/Picture3.jpg" ;
+import Picture21 from "../assets/img/Picture21.jpg";
+import Picture4 from "../assets/img/Picture4.jpg";
+import Picture10 from "../assets/img/Picture10.jpg";
+import Picture11 from "../assets/img/Picture11.jpg";
+import Picture15 from "../assets/img/Picture15.jpg";
+import flipeeed from "../assets/img/flipeeed.jpg";
+import Flippeeed2 from "../assets/img/Flippeeed2.jpg";
+import Picture12 from "../assets/img/Picture12.jpg";
+import Picture13 from "../assets/img/Picture13.jpg";
+import Picture14 from "../assets/img/Picture14.jpg";
+import Picture25 from "../assets/img/Picture25.jpg";
+import goalSetting1 from "../assets/img/goalSetting1.jpg";
+import GoalSetting2 from "../assets/img/GoalSetting2.jpg";
+
+import Picture22 from "../assets/img/Picture22.jpg";
+import Picture24 from "../assets/img/Picture24.jpg";
+
+import Picture26 from "../assets/img/Picture26.jpg";
+import Picture23 from "../assets/img/Picture23.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
 
 const Report = ()=>{
     return ( <section id="Report">
@@ -55,7 +89,7 @@ const Report = ()=>{
 
           <div className="article-image">
             <img
-              src="assets/img/saree-session-1.jpg"
+              src={sareeSession} 
               alt="Jen Looper Session"
               className="enhanced-image"
             />
@@ -98,7 +132,7 @@ const Report = ()=>{
           </p>
           <div className="article-image">
             <img
-              src="img/Picture27.jpg"
+              src={Picture27}
               alt="Jen Looper Session"
               className="enhanced-image"
             />
@@ -139,7 +173,7 @@ const Report = ()=>{
           </p>
         
           <div className="article-image">
-            <img src="assets/img/Picture3.jpg" alt="Poster Presentation Competition" className="enhanced-image" />
+            <img src={Picture3} className="enhanced-image" />
             <p className="image-caption">Students presenting their posters during the competition</p>
           </div>
          
@@ -164,11 +198,11 @@ const Report = ()=>{
             Held annually, this competition encourages students to innovate and contribute to the research landscape.
           </p>
           <div className="article-image">
-            <img src="assets/img/Picture21.jpg" alt="Poster Presentation Competition" className="enhanced-image" />
+            <img src={Picture21} alt="Poster Presentation Competition" className="enhanced-image" />
             <p className="image-caption">Faculty who orgainzed their posters presentation competition</p>
           </div>
           <div className="article-image">
-            <img src="assets/img/Picture4.jpg" alt="Poster Presentation Competition" className="enhanced-image" />
+            <img src={Picture4} alt="Poster Presentation Competition" className="enhanced-image" />
             <p className="image-caption">Poster Presentation Judged by Dr. Ghotkar and Mr. Shelke</p>
           </div>
           
@@ -188,7 +222,7 @@ const Report = ()=>{
             </div>
           </div>
           <div className="article-image">
-            <img src="assets/img/Picture10.jpg" alt="Debate Competition" className="enhanced-image" />
+            <img src={Picture10} alt="Debate Competition" className="enhanced-image" />
             <p className="image-caption">Students participated in Debate Competition </p>
           </div>
           
@@ -203,7 +237,7 @@ const Report = ()=>{
             
             The event, meticulously coordinated by <strong>Mrs. D. P. Salapurkar</strong> and her team, was a platform for students to hone their soft skills, preparing them for future academic and professional endeavors.</p>
           <div className="article-image">
-            <img src="assets/img/Picture11.jpg" alt="Debate Competition" className="enhanced-image" />
+            <img src={Picture11} alt="Debate Competition" className="enhanced-image" />
             <p className="image-caption">Students who won the debate competition</p>
           </div>
          
@@ -228,7 +262,7 @@ const Report = ()=>{
             As part of "Paperless Day," the event "Technical Dumb Charades" was organized to foster creative learning and engagement among students. Focused on the subject of Machine Learning, the activity provided an interactive platform for participants to showcase their understanding of technical concepts in an entertaining and collaborative manner.
           </p>
           <div className="article-image">
-            <img src="assets/img/Picture15.jpg" alt="Technical Dumb Charades" className="enhanced-image" />
+            <img src={Picture15} alt="Technical Dumb Charades" className="enhanced-image" />
             <p className="image-caption">Technical Dumb Charades</p>
           </div>
         </div>
@@ -261,9 +295,9 @@ const Report = ()=>{
         <p>
         <br/><br/><br/> <br/>
         </p>
-          <img src="assets/img/flipeeed.jpg" alt="Fibonacci Search Video" className="enhanced-image" />
+          <img src={flipeeed} alt="Fibonacci Search Video" className="enhanced-image" />
           <p className="image-caption">Students collaborating to solve a problem during the flipped</p>
-          <img src="assets/img/Flippeeed2.jpg" alt="Fibonacci Search Video" className="enhanced-image" />
+          <img src={Flippeeed2} alt="Fibonacci Search Video" className="enhanced-image" />
         </div>
       </div>
       <div className="article">
@@ -316,7 +350,7 @@ const Report = ()=>{
             <li>Building confidence by presenting skills and experiences effectively.</li>
           </ul>
           <div className="article-image">
-            <img src="assets/img/Picture12.jpg" alt="Steess Management " className="enhanced-image" />
+            <img src={Picture12} alt="Steess Management " className="enhanced-image" />
             <p className="image-caption">Expert Session on Stress Managementn</p>
           </div>
         
@@ -360,7 +394,7 @@ const Report = ()=>{
             <li><strong>Highlighting Education:</strong> Guidelines for listing academic achievements and certifications.</li>
           </ul>
           <div className="article-image">
-            <img src="assets/img/Picture13.jpg" alt="Poster Presentation Competition" className="enhanced-image" />
+            <img src={Picture13} alt="Poster Presentation Competition" className="enhanced-image" />
             <p className="image-caption">Online Expert Session on Resume Writing</p>
           </div>
          
@@ -408,7 +442,7 @@ const Report = ()=>{
             Algomania is a long-term coding competition developed to test the algorithmic and coding skills of the participants. It serves as a habit-building competition that encourages students to code regularly over a long interval.
           </p>
           <div className="article-image">
-            <img src="assets/img/Picture14.jpg" alt="Poster Presentation Competition" className="enhanced-image" />
+            <img src={Picture14} alt="Poster Presentation Competition" className="enhanced-image" />
             <p className="image-caption">AlgoMania: Unleashing the Algorithmic Frenzy</p>
           </div>
         </div>
@@ -434,11 +468,11 @@ const Report = ()=>{
             
             <br/><br/><br/><br/><br/>
           <div className="article-image">
-            <img src="assets/img/goalSetting1.jpg" alt="Expert Session on Goal Setting" className="enhanced-image" />
+            <img src={goalSetting1} alt="Expert Session on Goal Setting" className="enhanced-image" />
             <p className="image-caption">Mrs. Manasi Karanjkar addressing the students</p>
           </div>
           <div className="article-image">
-            <img src="assets/img/GoalSetting2.jpg" alt="Expert Session on Goal Setting" className="enhanced-image" />
+            <img src={GoalSetting2} alt="Expert Session on Goal Setting" className="enhanced-image" />
             <p className="image-caption">Students attending the session</p>
           </div>
         </div>
@@ -498,11 +532,11 @@ const Report = ()=>{
           </p>
         
           <div className="article-image">
-            <img src="assets/img/Picture22.jpg" alt="AWS Bootcamp" className="enhanced-image" />
+            <img src={Picture22} alt="AWS Bootcamp" className="enhanced-image" />
             <p className="image-caption">AWS Cloud Fundamentals Bootcamp</p>
           </div>
           <div className="article-image">
-            <img src="assets/img/Picture26.jpg" alt="VLSI Career Session" className="enhanced-image" />
+            <img src={Picture26} alt="VLSI Career Session" className="enhanced-image" />
             <p className="image-caption">AWS Cloud Fundamentals Bootcamp</p>
           </div>
         </div>
@@ -524,7 +558,7 @@ const Report = ()=>{
             </div>
           </div>
           <div className="article-image">
-            <img src="assets/img/Picture25.jpg" alt="Parallel Algorithms Session" className="enhanced-image" />
+            <img src= {Picture25} alt="Parallel Algorithms Session" className="enhanced-image" />
             <p className="image-caption">Guest Session on Parallel Algorithms & Heuristics</p>
           </div>
         
@@ -548,7 +582,7 @@ const Report = ()=>{
             efficiency and scalability.
           </p>
           <div className="article-image">
-            <img src="assets/img/Picture24.jpg" alt="Parallel Algorithms Session" className="enhanced-image" />
+            <img src={Picture24} alt="Parallel Algorithms Session" className="enhanced-image" />
             <p className="image-caption">Guest Session on Parallel Algorithms & Heuristics</p>
           </div>
          
@@ -571,7 +605,7 @@ const Report = ()=>{
             </div>
           </div>
           <div className="article-image">
-            <img src="assets/img/Picture23.jpg" alt="VLSI Career Session" className="enhanced-image" />
+            <img src={Picture23}alt="VLSI Career Session" className="enhanced-image" />
             <p className="image-caption">Expert Session on Career Opportunities in VLSI</p>
           </div>
         

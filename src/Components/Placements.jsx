@@ -6,7 +6,8 @@ import AnkurMusmade from "../assets/img/ankur_musmade.jpg";
 import RajNirankari from "../assets/img/raj_nirankari.jpg";
 
 import AniketHend from '../assets/img/Aniket_Hend.jpg';
-import AtharvaDingare from '../assets/img/Atharva_Dingare.JPG';
+// import AtharvaDingare from '../assets/img/Atharva_Dingare.JPG';
+const AtharvaDingare = new URL("../assets/img/Atharva_Dingare.JPG", import.meta.url).href;
 
 const Placements = () => {
   const chartRef = useRef(null);
