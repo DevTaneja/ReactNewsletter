@@ -13,6 +13,8 @@ const Indexx = () => {
                         <p>
                             Words of Wisdom from Our HOD and Newsletter In-Charge 🌟  
                             Presenting the first issue of the 2024-25 newsletter for the Department of Information Technology!
+                            Click on Read More!
+                            
                         </p>
                     </a>
                 </div>
