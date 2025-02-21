@@ -1,4 +1,7 @@
 import React from 'react';
+import jbjPict from "../assets/img/jbj_pict.jpg";
+import HODPict from "../assets/img/HODIT.jpg";
+
 
 const HOD = () => {
     return (
@@ -15,7 +18,7 @@ const HOD = () => {
                     <p><strong>- Dr. Archana Ghotkar</strong><br />Head, Department of Information Technology</p>
 
                     <div className="profile-image">
-                        <img src="../assets/img/hod.jpg" alt="Dr. Archana Ghotkar" />
+                    <img src={HODPict} alt="Dr. Archana Ghotkar" />
                     </div>
                 </div>
 
@@ -30,7 +33,7 @@ const HOD = () => {
                     <p><strong>– Dr. J. B. Jagdale</strong><br />Newsletter In-Charge</p>
 
                     <div className="profile-image">
-                        <img src="../assets/img/jbj-pict.jpg" alt="Dr. J. B. Jagdale - Newsletter In-charge" />
+                    <img src={jbjPict} alt="Dr. J. B. Jagdale - Newsletter In-charge" />
                     </div>
                 </div>
             </div>

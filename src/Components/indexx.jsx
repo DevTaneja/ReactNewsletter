@@ -4,7 +4,7 @@ const Indexx = () => {
     return (
         <section id="index">
            
-            <h2  className='indexx'>INDEX</h2>
+            <h2  id='indexx'>INDEX</h2>
            
             <div className="Grid">
                 <div className="student-box-1">

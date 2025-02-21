@@ -1,5 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
+import OmNikam from "../assets/img/Om_Nikam.jpeg";
+import VishalPatil from "../assets/img/Vishal_Patil.jpg";
+import AnkurMusmade from "../assets/img/ankur_musmade.jpg";
+import RajNirankari from "../assets/img/raj_nirankari.jpg";
+
+import AniketHend from '../assets/img/Aniket_Hend.jpg';
+import AtharvaDingare from '../assets/img/Atharva_Dingare.JPG';
 
 const Placements = () => {
   const chartRef = useRef(null);
@@ -72,7 +79,7 @@ const Placements = () => {
         Out of <b>255</b> total students, <b>129</b> have been placed.
       </span>
 
-      <div className="chart-container" style={{ height: "400px" }}>
+      <div className="chart-container" style={{ height: "500px" }}>
         <canvas ref={chartRef}></canvas>
       </div>
 
@@ -100,24 +107,24 @@ const Placements = () => {
           title: "Placed in PhonePe",
           package: "₹33 LPA",
           students: [
-            { name: "Atharva Dingare", img: "assets/img/Atharva Dingare.JPG" },
-            { name: "Aniket Hend", img: "assets/img/Aniket_Hend.jpg" },
+            { name: "Atharva Dingare", img: AtharvaDingare },
+            { name: "Aniket Hend", img: AniketHend },
           ],
         },
         {
           title: "Placed in ARISTA",
           package: "₹29.44 LPA",
           students: [
-            { name: "Om Nikam", img: "assets/img/OM NIKAM.jpeg" },
-            { name: "Vishal Patil", img: "assets/img/Vishal Patil.jpg" },
-            { name: "Ankur Musmade", img: "assets/img/ankur_musmade.jpg" },
-            { name: "Raj Nirankari", img: "assets/img/raj_nirankari.jpg" },
+            { name: "Om Nikam", img: OmNikam },
+            { name: "Vishal Patil", img: VishalPatil },
+            { name: "Ankur Musmade", img: AnkurMusmade},
+            { name: "Raj Nirankari", img: RajNirankari },
           ],
         },
       ].map((placement, index) => (
-        <div key={index} className="placement-container">
-          <h3 className="placement-title">{placement.title}</h3>
-          <div className="student-container">
+        <div key={index} className="phonepe-placement">
+          <h3 className="phonepe-title">{placement.title}</h3>
+          <div className="phonepe-student-container">
             {placement.students.map((student, idx) => (
               <div className="student-box" key={idx}>
                 <div className="student-photo">
