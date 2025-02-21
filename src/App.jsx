@@ -16,6 +16,8 @@ import PDA from "./Components/PDA";
 import Placements from "./Components/Placements";
 import Projects from "./Components/Projects";
 import Report from "./Components/report";
+import Marquee from "./Components/Marque";
+
 import "./index.css"; // Global CSS for all sections
 
 const App = () => {
@@ -48,6 +50,7 @@ const App = () => {
       <Achievements />
       <Toppers />
       <Placements />
+      <Marquee />
       <Internships />
       <Projects />
       <Calendar />

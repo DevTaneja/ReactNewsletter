@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition: all 0.3s ease, transform 0.2s ease;
 }
 
 .index-button svg {
@@ -38,7 +38,7 @@ body {
   line-height: 1.6;
   color: #222;
   min-height: 100vh; /* Full height viewport */
-  padding: 20px;
+  padding: 20px ;
 }
 html {
   scroll-behavior: smooth;
@@ -107,7 +107,7 @@ h6 ,ul{
 /* Custom styling for h1 */
 h1 {
   font-family: "mea-culpa-regular";
-  font-size: 70px;
+  font-size: 65px;
   /* text-align: center; */
   padding: 0px;
   margin: 0px;
@@ -403,8 +403,8 @@ p ,li{
 /* Container */
 .container {
   max-width: 1200px;
-  margin: 40px auto;
-  padding: 30px;
+  margin: 30px 40px;
+  padding: 30px 20px;
 }
 
 /* Newspaper Theme */
@@ -1311,6 +1311,171 @@ tr:hover {
   border-radius: 1rem;
 }
 
+/* Calendar */
+  .calendar-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .prev-month, .next-month {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+
+  .calendar-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .calendar-days, #calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .day-label {
+    font-weight: bold;
+    background-color: white ;
+    text-align: center;
+  }
+
+  .calendar-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    
+    background-color: white ;
+    font-size: 1.1em;
+  }
+
+  .event-day {
+    background-color: rgba(71, 215, 255, 0.6);
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+   
+  }
+
+  .event-day:hover {
+    background-color: rgba(71, 215, 255, 0.8);
+    transform: scale(1.1);
+    transition: all 300ms;
+  }
+
+  .calendar-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .calendar-popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    position: relative;
+  }
+
+  .close-popup {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+
+  /* Marquee */
+  .company-logos-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+}
+
+/* Marquee container (infinite loop effect) */
+.marquee-wrapper {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* Row animation */
+.marquee {
+    display: flex;
+    gap: 5rem;
+    animation: scroll-left 25s linear infinite;
+    width: max-content; /* Ensures it extends beyond the screen */
+}
+
+/* Reverse row animation */
+.marquee.reverse {
+    animation: scroll-right 25s linear infinite;
+}
+
+/* Logo styling */
+.marquee img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%) opacity(0.8);
+    transition: transform 1s, opacity 0.3s;
+}
+
+/* Duplicate logos for seamless scrolling */
+.marquee > * {
+    flex: 0 0 auto; /* Prevent shrinking */
+}
+
+/* Keyframes for smooth infinite scrolling */
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); /* Only shift half since we duplicated */
+    }
+}
+
+@keyframes scroll-right {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+  
+  
+  
 /*Responsiveness*/
 /* General Adjustments for Medium Screens (Tablets & Small Laptops) */
 @media (max-width: 1024px) {
@@ -1605,3 +1770,5 @@ tr:hover {
     padding: 10px;
   }
 }
+
+

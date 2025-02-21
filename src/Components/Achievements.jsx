@@ -26,7 +26,7 @@ const Achievements = () => {
 
         <div className="student-box-1 achievementBox">
           <img src={BasketballVictory} alt="Basketball Victory" />
-          <h4>Basketball Victory !!!🏀🏀🏀</h4>
+          <h4>Basketball Victory !!!🏀🏀</h4>
           <p>
             Riya Pande (SE 10), Tanaya Akkalkote (TE 10), Mega Nadar (BE 11), Kanak Agarwal (TE 9) and Riya Pendse along
             with the team won the Basketball tournament. Riya Pande also represented SPPU in an event in Gwalior.
