@@ -1431,13 +1431,13 @@ tr:hover {
 .marquee {
     display: flex;
     gap: 5rem;
-    animation: scroll-left 25s linear infinite;
+    animation: scroll-left 20s linear infinite;
     width: max-content; /* Ensures it extends beyond the screen */
 }
 
 /* Reverse row animation */
 .marquee.reverse {
-    animation: scroll-right 25s linear infinite;
+    animation: scroll-right 20s linear infinite;
 }
 
 /* Logo styling */
