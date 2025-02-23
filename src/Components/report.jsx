@@ -332,7 +332,8 @@ const Report = ()=>{
                 Mr. V. R. Tribhuvan, Mrs. A. S. Kadam, Ms. A. G. Ghule <br />
                 <strong>Organized by:</strong> Department of Information Technology, PICT Pune <br />
                 <strong>Speaker:</strong> Mrs. Sneha S. Gachake, Certified Yoga Trainer and Counsellor <br />
-                <strong>Mode of Conduction:</strong> Online (MS Teams: <a href="https://msteams.link/5LHH">Join Here</a>)
+                <strong>Mode of Conduction:</strong> Online 
+                
               </p>
             </div>
           </div>
