@@ -15,7 +15,6 @@ const Internships = () => {
             <p className="internship-amount">29*</p>
           </div>
         </div>
-        <p className="internship-note">*: ongoing</p>
       </div>
       <table className="internship-table">
         <thead>
