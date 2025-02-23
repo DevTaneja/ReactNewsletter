@@ -33,24 +33,22 @@ const FrontPage = () => {
           <div className="Vision">
             <h2>Department Vision</h2>
             <p>
-            The department aspires to be a transformative force in Information Technology education and research, developing globally competitive professionals.
-            </p>
+            The department aspires to be a transformative force in Information Technology education and research, developing globally competitive professionals.            </p>
           </div>
           <div className="Mission">
             <h2>Institute Mission</h2>
             <ul>
-              <li>Provide rigorous academic training that equips students to excel in their professional careers with the development of universal human values.</li>
-              <li>Foster research and innovation culture amongst faculty and students by encouraging interdisciplinary collaborations, thereby contributing to technological advancements.</li>
-              <li>Nurture leadership qualities in students through development of analytical thinking, problem-solving, and effective communication skills.</li>
+              <p>Provide rigorous academic training that equips students to excel in their professional careers with the development of universal human values.</p>
+              <p>Foster research and innovation culture amongst faculty and students by encouraging interdisciplinary collaborations, thereby contributing to technological advancements.</p>
+              <p>Nurture leadership qualities in students through development of analytical thinking, problem-solving, and effective communication skills.</p>
             </ul>
           </div>
           <div className="Mission">
             <h2>Department Mission</h2>
             <p>
-              To inculcate research culture among students by imparting
-              information technology-related fundamental knowledge, recent
-              technological trends, and ethics to get recognized as globally
-              acceptable and socially responsible professionals.
+              <p>Inculcate an environment of academic rigor in Information Technology education promoting critical thinking, creativity, and problem-solving skills.</p>
+<p>Foster research and industry collaboration by promoting multidisciplinary engagement among students and faculty, driving technological advancements to address societal challenges.</p>
+<p>Cultivate skilled professionals who embody effective communication, leadership, and ethical values.</p>
             </p>
           </div>
         </div>
