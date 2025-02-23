@@ -39,9 +39,9 @@ const FrontPage = () => {
           <div className="Mission">
             <h2>Institute Mission</h2>
             <ul>
-              <br>Provide rigorous academic training that equips students to excel in their professional careers with the development of universal human values.</br>
-              <br>Foster research and innovation culture amongst faculty and students by encouraging interdisciplinary collaborations, thereby contributing to technological advancements.</br>
-              <br>Nurture leadership qualities in students through development of analytical thinking, problem-solving, and effective communication skills.</br>
+              <li>Provide rigorous academic training that equips students to excel in their professional careers with the development of universal human values.</li>
+              <li>Foster research and innovation culture amongst faculty and students by encouraging interdisciplinary collaborations, thereby contributing to technological advancements.</li>
+              <li>Nurture leadership qualities in students through development of analytical thinking, problem-solving, and effective communication skills.</li>
             </ul>
           </div>
           <div className="Mission">

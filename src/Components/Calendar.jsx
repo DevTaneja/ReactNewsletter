@@ -79,13 +79,6 @@ const events = {
           "The Insem exams of Third Year and Fourth Year students .",
         color: "rgba(224, 249, 33, 0.6)",
       },
-  
-      "2024-09-06": {
-        name: "Insem Exam (TE/BE)",
-        description:
-          "The Insem exams of Third Year and Fourth Year students .",
-        color: "rgba(33, 123, 249, 0.6)",
-      },
     
     "2024-09-06": {
       name: "Stress Management",
@@ -140,15 +133,7 @@ const events = {
       description:
         "The Objective of the session was to understand  Research Paper writing, tools and techniques for project management",
       color: "rgba(255, 71, 212, 0.6)", // Tomato Red with transparency
-    },
-  
-    "2024-10-13": {
-      name: "Algomania",
-      description:
-        "To build momentum toward achieving greater competitive programming & DSA goals.To find strong core motivation to solve problems daily and progress in the journey of DSA.",
-      color: "rgba(154, 71, 255, 0.6)", // Tomato Red with transparency
-    },
-    
+    },    
       "2024-10-13": {
         name: "Algomania",
         description:
@@ -293,7 +278,6 @@ const events = {
         "2024-12-12": { "name": "Endsem Exams", "description": "Endsem exams for SE/TE/BE.", "color": "rgba(0, 255, 255, 0.4)" }, 
         "2024-12-13": { "name": "Endsem Exams", "description": "Endsem exams for SE/TE/BE.", "color": "rgba(0, 255, 255, 0.4)" }, 
         "2024-12-14": { "name": "Practical Exams", "description": "Practical Exams for SE/BE/TE.", "color": "rgba(255, 0, 43, 0.5)" }, 
-        "2024-12-17": { "name": "Practical Exams", "description": "Practical Exams for SE/BE/TE.", "color": "rgba(255, 0, 43, 0.5)" }, 
         "2024-12-17": { "name": "Practical Exams", "description": "Practical Exams for SE/BE/TE.", "color": "rgba(255, 0, 43, 0.5)" }, 
         "2024-12-16": { "name": "Practical Exams", "description": "Practical Exams for SE/BE/TE.", "color": "rgba(255, 0, 43, 0.5)" }, 
         "2024-12-18": { "name": "Practical Exams", "description": "Practical Exams for SE/BE/TE.", "color": "rgba(255, 0, 43, 0.5)" }, 

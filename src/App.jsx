@@ -58,9 +58,9 @@ const App = () => {
       <Report />
       <PDA />
       <Articles />
-      <div className="container">
-        <button id="bt1">Random button</button>
-      </div>
+    
+      <button id="bt1">Random button</button>
+      
       <AboutUs />
       <Footer />
     </div>
