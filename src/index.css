@@ -146,8 +146,9 @@ p, li {
 
 /* Page Layouts */
 .page-1 {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .image-container, .faculty-container {
@@ -222,7 +223,7 @@ p, li {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
+  gap: 3.2rem;
   margin: 2rem;
   font-size: 1.4rem;
 }
@@ -236,7 +237,6 @@ p, li {
   display: grid;
   margin: 2px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   padding: 2px;
   grid-gap: 10px 20px;
 }
@@ -319,6 +319,68 @@ p, li {
   padding: 0;
   border-radius: var(--border-radius);
 }
+/* Hod Section */
+#HOD {
+  padding: 40px;
+  background-color: #ffffff80;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+}
+
+.hod-message h1 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.message-box {
+  background: rgba(255, 255, 255, 0.586);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.reverse {
+  flex-direction: row-reverse; /* Reverse layout for the second message */
+}
+
+.profile-image.large {
+  width: 220px; /* Bigger image */
+  height: 280px; /* Proportional height */
+  object-fit: cover;
+  border-radius: 12px; /* Soft rounded corners */
+  border: 5px solid #555;
+}
+
+.text-content {
+  max-width: 650px;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.text-content strong {
+  font-size: 1.2rem;
+  color: #222;
+}
 
 /* Clubs Section */
 .clubs-section {
@@ -358,7 +420,7 @@ p, li {
 .toppers-section {
   margin: 40px 0;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.347);
   border-radius: 10px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -385,7 +447,7 @@ p, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 22px;
   flex-wrap: wrap;
 }
 
@@ -625,11 +687,12 @@ tr:hover {
   color: #222;
   margin-bottom: 20px;
 }
-
 .phonepe-student-container, .arista-student-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 20px;
 }
 
@@ -641,7 +704,12 @@ tr:hover {
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 150px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Ensures full centering in the grid cell */
 }
 
 .student-box-1 {
@@ -661,8 +729,8 @@ tr:hover {
 }
 
 .student-photo {
-  width: 100px;
-  height: 100px;
+  width:120px;
+  height: 120px;
   margin: 0 auto 10px;
   border-radius: 50%;
   overflow: hidden;
@@ -1013,11 +1081,14 @@ tr:hover {
 
 /* Department Specific */
 #Dept_of {
-  font-size: 28px;
+  font-size: 32px;
 }
 
-#ITdept {
+#IT {
   color: #1976d2;
+}
+#dept{
+  font-size: 38px;
 }
 
 /* Achievement Box */
@@ -1123,6 +1194,7 @@ tr:hover {
   .topper-box {
     width: 140px;
     height: 200px;
+    margin: 15px;
   }
 }
 
@@ -1182,7 +1254,7 @@ tr:hover {
   }
 
   .toppers-row {
-     gap: 10px;
+     gap: 13px;
   }
 
   .message-box {
@@ -1236,21 +1308,48 @@ tr:hover {
 }
 
 @media (max-width: 480px) {
-  .image-container {
+  .root{
+    margin:0px;
+    padding: 0px;
+  }
+  .container{
+    margin: 8px;
+  }
+  .page-1{
     margin: 0;
     padding: 0;
+    gap: 2rem;
+  }
+  .image-container {
+    width: 80vw;
+    height: 100%; /* Or any specific height */
+    overflow: hidden; /* Prevents overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
     width: 100%;
-  }
+    height: 100%;
+    object-fit: cover; /* Ensures it fills the container without distortion */
+}
 
-  .image-container img {
-    width: auto;
-    height: 470px;
+.toppers-section{
+  margin:12px 0px ;
+}
+ 
+  .student-box-1{
+    margin : 5px;
+    width: 280px;
+    
   }
-
-  #index {
-    margin: 2rem;
+  .student-box-1 h2{
+    size: 1rem;
   }
-
+  .student-box-1 p{
+    size: 1rem;
+  }
   body {
     display: flex;
     flex-direction: column;
@@ -1269,13 +1368,33 @@ tr:hover {
     font-size: 22px;
     letter-spacing: -0.2px;
   }
-
+  #indexx{
+    font-size:34px;
+  }
   p {
     line-height: 5px;
     font-size: 18px;
     line-height: 1.4;
   }
-
+  .student-photo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+  .student-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100px;
+    
+  }
   .Gallery-2 {
     gap: 0.5rem;
   }
@@ -1285,8 +1404,8 @@ tr:hover {
   }
 
   .Grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
     font-size: 1rem;
     margin: 2rem;
   }
@@ -1303,10 +1422,11 @@ tr:hover {
   .topper-box {
     width: 100px;
     height: 150px;
+    margin:10px;
   }
 
   .toppers-row {
-    gap: 6px;
+    gap: 15px;
   }
 
   .message-box {
@@ -1341,4 +1461,33 @@ tr:hover {
     max-width: 90%;
     padding: 10px;
   }
+  .calendar-container {
+    width: 100%;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .calendar-container{
+    font-size: 0.8rem;
+  }
+  .calendar-header , calendar-header h2{
+    font-size: 0.8rem;
+  }
+  .calendar-title h2{
+    font-size: 0.8rem;
+  }
+  .calendar-day {
+    height: 45px;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
+    gap:20px;
+  }
+  .gallery-item{
+    width: 120%;
+  }
+  .article-image img{
+    width: 100%;
+  }
+
 }

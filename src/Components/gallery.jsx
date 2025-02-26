@@ -29,7 +29,8 @@ const Gallery = () => {
                 <div className="gallery-text">
                     <h2>
                         <span id="Dept_of">Department of</span>{" "}
-                        <span id="ITdept">Information Technology</span>
+                        <span id="IT">Information   </span>
+                        <span id="dept"> Technology</span>
                     </h2>
                 </div>
                 <figure className="gallery-item">
