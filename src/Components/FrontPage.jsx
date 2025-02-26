@@ -1,5 +1,5 @@
 import React from 'react';
-import collegeImage from '../assets/img/college.jpg';
+import collegeImage from '../assets/img/College.jpg';
 import facultyImage from '../assets/img/itfaculty.jpg';
 
 const FrontPage = () => {
