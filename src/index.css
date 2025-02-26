@@ -1464,7 +1464,9 @@ tr:hover {
   .toppers-row {
     gap: 15px;
   }
-
+  #HOD{
+    padding: 15px;
+  }
   .message-box {
     font-size: 0.8rem;
     padding: 8px;
