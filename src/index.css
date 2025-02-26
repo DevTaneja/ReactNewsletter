@@ -247,9 +247,7 @@ p, li {
 }
 
 /* Page 2 Layout */
-.page-2 {
-  /* margin: 60px; */
-}
+
 
 .articles-container {
   display: grid;
@@ -352,6 +350,7 @@ p, li {
   text-align: left;
   max-width: 1000px;
   margin: auto;
+  padding-top:20px;
 }
 
 .reverse {
@@ -1494,7 +1493,10 @@ tr:hover {
   .article img {
     width: 70%;
   }
+  .project-development-head {
+    width: 280px;
 
+  }
   .message-box {
     max-width: 90%;
     padding: 10px;
@@ -1549,6 +1551,13 @@ tr:hover {
   .internship-table td {
     font-size: 0.9rem;
     padding: 8px;
+  }
+  .member img, .teacher-section img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
   }
 
 }
