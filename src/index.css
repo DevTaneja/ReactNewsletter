@@ -1071,6 +1071,38 @@ tr:hover {
 .teacher-section {
   margin-top: 40px;
 }
+/* Internship  */
+#internships{
+  margin: 20px 0px;
+
+}
+.internship-table-container {
+  width: 100%;
+  overflow-x: auto;  /* Enable horizontal scrolling only if needed */
+  margin: 0 auto;
+}
+
+/* Table Styling */
+.internship-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background-color: #fff;
+  margin: 0;
+}
+
+.internship-table th, 
+.internship-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap; /* Prevents content from wrapping */
+}
+
+.internship-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
 
 /* Footer */
 .footer {
@@ -1479,6 +1511,7 @@ tr:hover {
   }
   .calendar-day {
     height: 45px;
+    width: 45px;
   }
   .gallery {
     grid-template-columns: 1fr;
@@ -1489,6 +1522,19 @@ tr:hover {
   }
   .article-image img{
     width: 100%;
+  }
+  .internship-table-container {
+    overflow-x: auto;  /* Horizontal scroll on small screens */
+  }
+
+  .internship-table {
+    min-width: 600px; /* Ensures table retains format */
+  }
+
+  .internship-table th,
+  .internship-table td {
+    font-size: 0.9rem;
+    padding: 8px;
   }
 
 }
