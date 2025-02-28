@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Importing images (ensure images are in src/assets/img/)
+// Importing images
 import kartik_patil from '/src/assets/img/kartik_patil.jpg';
 import ssamyak_jain from '/src/assets/img/ssamyak_jain.jpg';
 import devesh_bedmutha from '/src/assets/img/devesh_bedmutha.jpg';
@@ -28,63 +28,131 @@ const CollegeToppers = () => {
             </p>
 
             {/* BE-IT Branch Toppers */}
-            <BranchToppers
-                title="BE-IT Branch Toppers"
-                toppers={[
-                    { img: kartik_patil, name: "Patil Kartik Tushar", marks: "9.74" },
-                    { img: ssamyak_jain, name: "Jain Samyak Vijay", marks: "9.71" },
-                    { img: devesh_bedmutha, name: "Bedmutha Devesh Sandeep", marks: "9.66" },
-                    { img: mahek_mulla, name: "Mulla Mahek Najir", marks: "9.66" },
-                    { img: shreya_shetti, name: "Shetti Shreya Shridhar", marks: "9.6" }
-                ]}
-            />
+            <div className="branch-toppers">
+                <h3 className="branch-title">BE-IT Branch Toppers</h3>
+                <div className="toppers-row">
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={kartik_patil} alt="Patil Kartik Tushar" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Patil Kartik<br />Tushar</span>
+                            <p className="topper-marks">9.74</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={ssamyak_jain} alt="Jain Samyak Vijay" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Jain Samyak<br />Vijay</span>
+                            <p className="topper-marks">9.71</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={devesh_bedmutha} alt="Bedmutha Devesh Sandeep" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Bedmutha Devesh<br />Sandeep</span>
+                            <p className="topper-marks">9.66</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={mahek_mulla} alt="Mulla Mahek Najir" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Mulla Mahek<br />Najir</span>
+                            <p className="topper-marks">9.66</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={shreya_shetti} alt="Shetti Shreya Shridhar" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Shetti Shreya<br />Shridhar</span>
+                            <p className="topper-marks">9.6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/* TE-IT Branch Toppers */}
-            <BranchToppers
-                title="TE-IT Branch Toppers"
-                toppers={[
-                    { img: Sarvadnya, name: "Barate Sarvadnyaa Jitendra", marks: "10" },
-                    { img: Atharva_Banasure, name: "Banasure Athrava Rambhau", marks: "9.93" },
-                    { img: Tanmay_Kokate, name: "Kokate Tanmay Baban", marks: "9.93" },
-                    { img: Shantanu_Jadhav, name: "Jadhav Shantanu Ankush", marks: "9.86" },
-                    { img: diya_oswal, name: "Oswal Diya Prakash", marks: "9.86" }
-                ]}
-            />
+            <div className="branch-toppers">
+                <h3 className="branch-title">TE-IT Branch Toppers</h3>
+                <div className="toppers-row">
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Sarvadnya} alt="Barate Sarvadnyaa Jitendra" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Barate Sarvadnyaa<br />Jitendra</span>
+                            <p className="topper-marks">10</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Atharva_Banasure} alt="Banasure Atharva Rambhau" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Banasure Atharva<br />Rambhau</span>
+                            <p className="topper-marks">9.93</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Tanmay_Kokate} alt="Kokate Tanmay Baban" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Kokate Tanmay <br />Baban</span>
+                            <p className="topper-marks">9.93</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Shantanu_Jadhav} alt="Jadhav Shantanu Ankush" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Jadhav Shantanu <br />Ankush</span>
+                            <p className="topper-marks">9.86</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={diya_oswal} alt="Oswal Diya Prakash" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Oswal Diya <br />Prakash</span>
+                            <p className="topper-marks">9.86</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/* SE-IT Branch Toppers */}
-            <BranchToppers
-                title="SE-IT Branch Toppers"
-                toppers={[
-                    { img: Ankita_Adam, name: "Adam Ankita Ramesh", marks: "10" },
-                    { img: sayali_lagad, name: "Lagad Sayali Sunil", marks: "9.98" },
-                    { img: Sahil_Katkamwar, name: "Katkamwar Sahil Sanjay", marks: "9.91" },
-                    { img: mahi_shahteit, name: "Shah Mahi Mukesh", marks: "9.86" },
-                    { img: Sejal_Patil, name: "Patil Sejal Kailas", marks: "9.75" }
-                ]}
-            />
-        </section>
-    );
-};
-
-const BranchToppers = ({ title, toppers }) => {
-    return (
-        <div className="branch-toppers">
-            <h3 className="branch-title">{title}</h3>
-            <div className="toppers-row">
-                {toppers.map((topper, index) => (
-                    <div className="topper-box" key={index}>
-                        <div className="topper-photo">
-                            <img src={topper.img} alt={topper.name} />
-                        </div>
+            <div className="branch-toppers">
+                <h3 className="branch-title">SE-IT Branch Toppers</h3>
+                <div className="toppers-row">
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Ankita_Adam} alt="Adam Ankita Ramesh" /></div>
                         <div className="topper-name-container">
-                            <span className="topper-first-names">{topper.name.split(' ').slice(0, -1).join(' ')}</span>
-                            <span className="topper-last-name">{topper.name.split(' ').pop()}</span>
+                            <span className="topper-first-names">Adam Ankita<br />Ramesh</span>
+                            <p className="topper-marks">10</p>
                         </div>
-                        <p className="topper-marks">{topper.marks}</p>
                     </div>
-                ))}
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={sayali_lagad} alt="Lagad Sayali Sunil" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Lagad Sayali<br />Sunil</span>
+                            <p className="topper-marks">9.98</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Sahil_Katkamwar} alt="Katkamwar Sahil Sanjay" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Katkamwar Sahil <br />Sanjay</span>
+                            <p className="topper-marks">9.91</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={mahi_shahteit} alt="Shah Mahi Mukesh" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Shah Mahi <br />Mukesh</span>
+                            <p className="topper-marks">9.86</p>
+                        </div>
+                    </div>
+                    <div className="topper-box">
+                        <div className="topper-photo"><img src={Sejal_Patil} alt="Patil Sejal Kailas" /></div>
+                        <div className="topper-name-container">
+                            <span className="topper-first-names">Patil Sejal <br />Kailas</span>
+                            <p className="topper-marks">9.75</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     );
 };
 
