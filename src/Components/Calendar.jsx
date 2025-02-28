@@ -356,9 +356,9 @@ const events = {
     return (
       <section id="calendar">
         <div className="page-2 newspaper-theme">
-          <h2 className="section-title">
+          <h3 className="section-title">
             Activities Conducted from 1st July 2024 to 30th September 2024
-          </h2>
+          </h3>
           <div className="calendar-container">
             <div className="calendar-header">
               <button

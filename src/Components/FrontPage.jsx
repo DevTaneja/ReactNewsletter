@@ -1,5 +1,5 @@
 import React from 'react';
-import collegeImage from '../assets/img/college.jpg';
+import collegeImage from '../assets/img/College.jpg';
 import facultyImage from '../assets/img/itfaculty.jpg';
 
 const FrontPage = () => {
@@ -38,11 +38,11 @@ const FrontPage = () => {
           </div>
           <div className="Mission">
             <h2>Institute Mission</h2>
-            <ul>
+            
               <p>Provide rigorous academic training that equips students to excel in their professional careers with the development of universal human values.</p>
               <p>Foster research and innovation culture amongst faculty and students by encouraging interdisciplinary collaborations, thereby contributing to technological advancements.</p>
               <p>Nurture leadership qualities in students through development of analytical thinking, problem-solving, and effective communication skills.</p>
-            </ul>
+           
           </div>
           <div className="Mission">
             <h2>Department Mission</h2>

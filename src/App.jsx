@@ -32,13 +32,8 @@ const App = () => {
       };
     }
 
-    // Handle mobile alert message
-    if (window.innerWidth < 724 && !document.querySelector(".mobile-alert")) {
-      const alertMessage = document.createElement("p");
-      alertMessage.className = "mobile-alert";
-      alertMessage.textContent = "You're on a phone. Zoom out for a better view.";
-      document.body.prepend(alertMessage);
-    }
+    
+   
   }, []); // Runs once after initial render
 
   return (

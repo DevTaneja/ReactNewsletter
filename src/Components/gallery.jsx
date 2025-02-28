@@ -1,14 +1,14 @@
 import React from "react";
 
 // Importing images
-import picture1 from "../assets/img/picture1.jpg";
-import picture2 from "../assets/img/picture2.jpg";
-import picture4 from "../assets/img/picture4.jpg";
+import picture1 from "../assets/img/Picture1.jpg";
+import picture2 from "../assets/img/Picture2.jpg";
+import picture4 from "../assets/img/Picture4.jpg";
 import picture5 from "../assets/img/Picture5.png";
-import picture7 from "../assets/img/picture7.jpg";
-import picture16 from "../assets/img/picture16.jpg";
-import picture17 from "../assets/img/picture17.jpg";
-import picture18 from "../assets/img/picture18.jpg";
+import picture7 from "../assets/img/Picture7.jpg";
+import picture16 from "../assets/img/Picture16.jpg";
+import picture17 from "../assets/img/Picture17.jpg";
+import picture18 from "../assets/img/Picture18.jpg";
 
 const Gallery = () => {
     return (
@@ -29,7 +29,8 @@ const Gallery = () => {
                 <div className="gallery-text">
                     <h2>
                         <span id="Dept_of">Department of</span>{" "}
-                        <span id="ITdept">Information Technology</span>
+                        <span id="IT">Information   </span>
+                        <span id="dept"> Technology</span>
                     </h2>
                 </div>
                 <figure className="gallery-item">
