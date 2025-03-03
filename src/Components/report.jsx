@@ -93,7 +93,7 @@ const Report = ()=>{
               alt="Jen Looper Session"
               className="enhanced-image"
             />
-            <p className="image-caption">
+            <p className="image-caption text-sm" style={{ fontWeight: "bold" }}>
               Jen Looper during her session "The Last Saree"
             </p>
           </div>
@@ -136,7 +136,7 @@ const Report = ()=>{
               alt="Jen Looper Session"
               className="enhanced-image"
             />
-            <p className="image-caption">
+             <p className="image-caption text-sm" style={{ fontWeight: "bold" }}>
               Jen Looper during her session "The Last Saree"
             </p>
             
@@ -163,10 +163,7 @@ const Report = ()=>{
           </div>
         
          
-          <p className="intro">
-            <em>Showcasing Innovation: A Thrilling Poster Presentation Competition at PICT Pune.</em>
-          </p>
-        
+          
         
           <p>
             The IT Department of Pune Institute of Computer Technology (PICT) recently organized a Poster Presentation Competition, where third-year students showcased their innovative ideas and research on topics like Artificial Intelligence, Machine Learning, and Blockchain. 
@@ -174,7 +171,7 @@ const Report = ()=>{
         
           <div className="article-image">
             <img src={Picture3} className="enhanced-image" />
-            <p className="image-caption">Students presenting their posters during the competition</p>
+            <p className="image-caption text-sm" style={{ fontWeight: "bold" }}>Students presenting their posters during the competition</p>
           </div>
          
           <h4>The Competition</h4>
@@ -223,7 +220,12 @@ const Report = ()=>{
           </div>
           <div className="article-image">
             <img src={Picture10} alt="Debate Competition" className="enhanced-image" />
-            <p className="image-caption">Students participated in Debate Competition </p>
+            <p className="image-caption text-sm" style={{ fontWeight: "bold" }}>
+  Students participated in Debate Competition
+</p>
+
+
+
           </div>
           
           <p>

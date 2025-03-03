@@ -1,7 +1,7 @@
 import React from 'react';
 import devfinalnewsletter from "../assets/img/devfinalnewsletter.jpg";
 import mahinewsletterfinal from "../assets/img/mahinewsletterfinal.jpg";
-import jbj_pict from "../assets/img/jbj_pict.jpg";
+import jbj_pict from "../assets/img/jbjfinal.jpg";
 
 const AboutUs = () => {
   return (  
