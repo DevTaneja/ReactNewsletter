@@ -11,7 +11,6 @@ import Footer from "./Components/footer";
 import Gallery from "./Components/gallery";
 import HOD from "./Components/HOD";
 import Internships from "./Components/Internships";
-import Main from "./main";
 import PDA from "./Components/PDA";
 import Placements from "./Components/Placements";
 import Projects from "./Components/Projects";
