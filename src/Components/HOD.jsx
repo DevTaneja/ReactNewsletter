@@ -11,10 +11,7 @@ const HOD = () => {
 
                 {/* HoD Section */}
                 <div className="message-box">
-
-                 
-
-                    <div className="profile-image" style={{ textAlign: 'center' }}> {/* Center image */}
+                     {/* Center image */}
                         {/* Enlarged image */}
 
                     <div className="profile-container">
@@ -27,7 +24,7 @@ const HOD = () => {
                             <p><strong>- Dr. Archana Ghotkar</strong><br />Head, Department of Information Technology</p>
                         </div>
                     </div>
-                    </div>
+                    
                 </div>
 
                 {/* Newsletter In-Charge Section */}

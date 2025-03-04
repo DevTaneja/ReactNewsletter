@@ -1406,20 +1406,27 @@ tr:hover {
     margin: 0;
     padding: 0;
     gap: 2rem;
+    width: 100%;
+  
   }
   .image-container {
-    width: 80vw;
-    height: 100%; /* Or any specific height */
+    width: 100%;
+    /* Or any specific height */
     overflow: hidden; /* Prevents overflow */
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
+    padding: 0;
+    margin: 1 0;
 }
 
 .image-container img {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures it fills the container without distortion */
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0;
+   
 }
 
 .toppers-section{

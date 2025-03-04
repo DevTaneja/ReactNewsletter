@@ -18,7 +18,7 @@ const FrontPage = () => {
       <hr className="line-1" />
 
       <div className="page-1">
-        <div className="image-container">
+        <div className="image-container pictimage">
           <img src={collegeImage} alt="Large Image" />
         </div>
         <div className="text-container">
