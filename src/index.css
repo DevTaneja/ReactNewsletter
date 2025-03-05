@@ -256,6 +256,11 @@ p, li {
   column-gap: 2rem;
 }
 
+.image-caption{
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+}
 .article {
   border: 1px solid #ddd;
   padding: 10px;
@@ -1419,6 +1424,7 @@ tr:hover {
     padding: 0;
     margin: 1 0;
 }
+
 
 .image-container img {
     width: 100%;
