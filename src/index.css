@@ -117,7 +117,61 @@ p, li {
   display: block;
   padding: 5px 0 10px;
 }
+.PDA ul{
+  margin: 0;
+  padding-left: 0;
+}
+.article-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+  gap: 20px;
+  padding: 10px; /* Add some padding around the section */
+}
 
+.column {
+  flex: 1;
+  min-width: 200px; /* Prevent columns from getting too narrow */
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensures images behave as block elements */
+}
+
+.middle-column {
+  flex: 2; /* Make the middle column wider on larger screens */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .article-section {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+    gap: 15px; /* Reduce gap on smaller screens */
+  }
+
+  .left-column,
+  .right-column,
+  .middle-column {
+    width: 100%; /* Make columns full-width on smaller screens */
+  }
+
+  .left-column,
+  .right-column {
+    flex-direction: row; /* display images in row on smaller screens */
+    flex-wrap: wrap; /* allow images to wrap if needed */
+    justify-content: space-evenly;
+  }
+
+
+}
 .heading {
   display: flex;
   flex-direction: column;

@@ -11,7 +11,7 @@ const FrontPage = () => {
       <div className="heading">
         <h3 id="SCTR">SCTR's</h3>
         <h1>Pune Institute of Computer Technology</h1>
-        <h2>Department of Information Technology (2024 - Issue 2)</h2>
+        <h2>Department of Information Technology (2024 - Issue 1)</h2>
       </div>
 
       <hr className="line-2" />
