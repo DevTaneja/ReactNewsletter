@@ -127,7 +127,11 @@ p, li {
   gap: 20px;
   padding: 10px; /* Add some padding around the section */
 }
+.middle-column{
+  margin: 0px 10px;
+  padding-right: 10px;
 
+}
 .column {
   flex: 1;
   min-width: 200px; /* Prevent columns from getting too narrow */
