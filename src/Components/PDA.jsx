@@ -7,7 +7,7 @@ import Image4 from "../assets/img/oop4.jpg";
 
 const Pda = ()=> {
     return ( <section className="PDA">
-        <h2 id="indexx">PDA</h2>
+        <h2 id="indexx">Professional Development Activity</h2>
         <img src={PDA}></img>
     
        <h2>OOP Challenge Quest: An OOP Coding Competition</h2>
