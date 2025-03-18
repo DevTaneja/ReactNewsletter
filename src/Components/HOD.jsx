@@ -35,8 +35,8 @@ const HOD = () => {
                             <p>Dear readers,</p>
                             <p>I feel happy to present to you Issue I of the newsletter for AY 24-25. The newsletter is the image of the department where one can see the efforts put in by the students and staff of the department.</p>
                             <p>Dear GenZ,</p>
-                            <p>Firstly, congratulations for your dedication, resilience, creativity, and ability to easily adopt technology. The luxury of advanced technology in handheld devices comes with many challenges faced by the world now and in coming years, like lowered physical, mental, and psychological strength. Ambition to achieve goals, if coupled with humility and patience, can be a cherry on top. Your teachers will always be happy to see you flourish. All the best for your future and endeavors!!</p>
-                            <p><strong>– Dr. J. B. Jagdale</strong><br />Newsletter In-Charge</p>
+                            <p>Firstly, congratulations for your dedication, resilience, creativity, and ability to easily adopt technology. The luxury of advanced technology in handheld devices comes with many challenges faced by the world now and in coming years, like lowered physical, mental, and psychological strength. Ambition to achieve goals, if coupled with humility and patience, can be a cherry on top. Your teachers will always be happy to see you flourish. All the best for your future endeavors!!</p>
+                            <p><strong>– Dr. Jayashree Jagdale</strong><br />Newsletter In-Charge</p>
                         </div>
                     </div>
                 </div>

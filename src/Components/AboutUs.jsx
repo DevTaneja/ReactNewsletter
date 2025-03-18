@@ -31,8 +31,8 @@ const AboutUs = () => {
 
         <div className="teacher-section">
           <img src={jbj_pict} alt="Dr. J B Jagdale" />
-          <h2>Dr. J B Jagdale</h2>
-          <a href="http://linkedin.com/in/dr-jayashree-balaso-j-19ba9716" target="_blank" rel="noopener noreferrer">
+          <h2>Dr. Jayashree Jagdale</h2>
+          <a href="https://www.linkedin.com/in/jayashree-j-19ba9716?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
             LinkedIn Profile
           </a>
         </div>
